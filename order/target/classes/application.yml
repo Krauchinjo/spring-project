@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Order
+    username: root
+    password: 123
+    driver-class-name: org.postgresql.Driver
+url:
+  product-link: "http://localhost:8081"
+kafka:
+  bootstrap-server-config: "127.0.0.1:9092"
+  topic: "orders"

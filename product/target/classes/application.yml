@@ -1,0 +1,15 @@
+server:
+  port: 8081
+  error:
+    include-message: always
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Product
+    username: root
+    password: 123
+  jpa:
+    hibernate:
+      ddl-auto: update
+kafka:
+  bootstrap-server-config: "127.0.0.1:9092"
+  groupId: "product-group"
